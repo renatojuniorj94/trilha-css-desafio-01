@@ -61,6 +61,16 @@ header {
     margin-bottom: 16px;
 }
 
-div button {
-    margin-bottom: 60px;
+button {
+    display: flex;
+    margin: auto;
+    padding: 16px 32px;
+    text-align: center;
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
 }

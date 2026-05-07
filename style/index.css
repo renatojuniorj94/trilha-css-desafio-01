@@ -14,3 +14,16 @@ header {
     text-align: center;
     color: white;
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 260px;
+    width: 260px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;   
+    padding: 16px;
+    margin-bottom: 16px;
+}

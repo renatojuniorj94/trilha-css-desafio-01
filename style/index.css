@@ -9,3 +9,8 @@ header {
     background-image: url(../assets/images/banner.png), linear-gradient(#000000, #0C232D, #000000);
     padding-top: 60px;
 }
+
+.banner {
+    text-align: center;
+    color: white;
+}

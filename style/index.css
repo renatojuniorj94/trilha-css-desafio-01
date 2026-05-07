@@ -27,3 +27,7 @@ header {
     padding: 16px;
     margin-bottom: 16px;
 }
+
+div button {
+    margin-bottom: 60px;
+}

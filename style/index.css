@@ -21,7 +21,10 @@ body {
 
 header {
     background-image: url(../assets/images/banner.png), linear-gradient(#000000, #0C232D, #000000);
+    background-repeat: no-repeat;
     padding-top: 60px;
+    padding-bottom: 60px;
+    
 }
 
 .banner h1 {

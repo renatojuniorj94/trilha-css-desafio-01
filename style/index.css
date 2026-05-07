@@ -4,3 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-image: url(../assets/images/banner.png), linear-gradient(#000000, #0C232D, #000000);
+    padding-top: 60px;
+}

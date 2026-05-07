@@ -37,6 +37,17 @@ header {
     -webkit-background-clip: text;
 }
 
+.banner p {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
 .logo {
     display: flex;
     justify-content: center;

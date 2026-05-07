@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
@@ -7,6 +8,10 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -19,9 +24,14 @@ header {
     padding-top: 60px;
 }
 
-.banner {
+.banner h1 {
     text-align: center;
-    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(#33a8db, #1472b7);
+    -webkit-background-clip: text;
 }
 
 .logo {

@@ -38,8 +38,8 @@ header {
 }
 
 .banner p {
-    display: flex;
     margin: auto;
+    align-items: center;
     text-align: center;
     width: 70%;
     margin-bottom: 30px;
@@ -73,4 +73,8 @@ button {
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
+}
+
+button:hover {
+    cursor: pointer;
 }
